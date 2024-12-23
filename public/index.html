@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio - Desenvolvedor Junior</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link rel="icon" href="data:,">
+
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <img src="foto-perfil.jpg" alt="Minha Foto" class="profile-photo">
+            <h1 class="animate-title">Gabriel Sousa Matias</h1>
+            <p class="animate-subtitle">Desenvolvedor Web Junior</p>
+            <nav>
+                <ul>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="sobre" class="section">
+            <div class="container">
+                <h2>Sobre Mim</h2>
+                <p>Sou um desenvolvedor junior com paixão por criar aplicações web e ajudar pessoas com uso da tecnologia.
+                   <p> Tenho experiência em HTML, CSS, JavaScript, Node.js e MySQL. Estou sempre buscando aprender novas tecnologias e melhorar minhas habilidades.</p>
+            </div>
+        </section>
+
+        <section id="projetos" class="section">
+            <div class="container">
+                <h2>Meus Projetos</h2>
+                <div class="projects">
+                    <div class="project">
+                        <h3>Projeto 1</h3>
+                        <p>Descrição do projeto.</p>
+                        <a href="#">https://github.com/GSmathias</a>
+                    </div>
+                    <div class="project">
+                        <h3>Projeto 2</h3>
+                        <p>Descrição do projeto.</p>
+                        <a href="#">https://github.com/GSmathias</a>
+                    </div>
+                    <div class="project">
+                        <h3>Projeto 3</h3>
+                        <p>Descrição do projeto.</p>
+                        <a href="#">https://github.com/GSmathias</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato" class="section">
+            <div class="container">
+                <h2>Contato</h2>
+                <div class="contact-container">
+                    <!-- Ícone do WhatsApp -->
+                    <a href="https://wa.me/5561983733006" target="_blank" class="contact-item whatsapp">
+                        <img src="whatsapp.png" alt="WhatsApp">
+                        <span>(61) 9 8373-3006</span>
+                    </a>
+                    <!-- Link de E-mail -->
+                    <a href="mailto:gsmathias@gmail.com" class="contact-item email">
+                        
+              
+            <img src="email.png" alt="E-mail">
+                        <span>gsmathias@gmail.com</span>
+                    </a>
+                </div>
+                <form id="contactForm">
+                    <label for="name">Nome:</label>
+                    <input type="text" id="name" name="name" required>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="message">Mensagem:</label>
+                    <textarea id="message" name="message" required></textarea>
+                    <button type="submit">Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
